@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Dsilva-Infotech/static/css/main.af5ab1ed.css",
-    "main.js": "/Dsilva-Infotech/static/js/main.39eb1e81.js",
-    "static/js/453.1407b060.chunk.js": "/Dsilva-Infotech/static/js/453.1407b060.chunk.js",
-    "static/media/myself.png": "/Dsilva-Infotech/static/media/myself.b7fab7c58f0c58b4eb96.png",
-    "static/media/employee.jpeg": "/Dsilva-Infotech/static/media/employee.5b4795e7df2cd7840434.jpeg",
-    "static/media/highriding.png": "/Dsilva-Infotech/static/media/highriding.bada5e977ea9b50ff4fb.png",
-    "static/media/welfound.png": "/Dsilva-Infotech/static/media/welfound.675faf81b2f035d22dba.png",
-    "static/media/dsilva.png": "/Dsilva-Infotech/static/media/dsilva.bc98db93fb88aed9481e.png",
-    "index.html": "/Dsilva-Infotech/index.html",
-    "main.af5ab1ed.css.map": "/Dsilva-Infotech/static/css/main.af5ab1ed.css.map",
-    "main.39eb1e81.js.map": "/Dsilva-Infotech/static/js/main.39eb1e81.js.map",
-    "453.1407b060.chunk.js.map": "/Dsilva-Infotech/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.af5ab1ed.css",
+    "main.js": "/static/js/main.cfc07a57.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/myself.png": "/static/media/myself.b7fab7c58f0c58b4eb96.png",
+    "static/media/employee.jpeg": "/static/media/employee.5b4795e7df2cd7840434.jpeg",
+    "static/media/highriding.png": "/static/media/highriding.bada5e977ea9b50ff4fb.png",
+    "static/media/welfound.png": "/static/media/welfound.675faf81b2f035d22dba.png",
+    "static/media/dsilva.png": "/static/media/dsilva.bc98db93fb88aed9481e.png",
+    "index.html": "/index.html",
+    "main.af5ab1ed.css.map": "/static/css/main.af5ab1ed.css.map",
+    "main.cfc07a57.js.map": "/static/js/main.cfc07a57.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af5ab1ed.css",
-    "static/js/main.39eb1e81.js"
+    "static/js/main.cfc07a57.js"
   ]
 }
