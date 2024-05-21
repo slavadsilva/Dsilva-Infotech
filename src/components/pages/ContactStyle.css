@@ -1,0 +1,171 @@
+/* Google Font CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+.contact-container {
+  margin-top: 3%;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+}
+.contact-container .contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0f172a;
+}
+.contact-container .contact-content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.contact-content .left-side::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0f172a;
+}
+.contact-content .left-side .details {
+  margin: 14px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.contact-content .left-side .details i {
+  font-size: 30px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.contact-content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0f172a;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-content .left-side .details .text-one,
+.contact-content .left-side .details .text-two {
+  font-size: 14px;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-container .contact-content .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+.contact-content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-content .right-side p{
+  font-size: 18px;
+  padding: 0.5rem 0 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right-side .input-box {
+  height: 55px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f0f1f8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box {
+  min-height: 110px;
+}
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+.right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #0f172a;
+  cursor: pointer;
+  margin-left: 50%;
+  margin-right: 50%;
+  transition: all 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button input[type="button"]:hover {
+  background: #3b0fb4;
+}
+
+@media (max-width: 950px) {
+  .contact-container {
+    width: 100%;
+    padding: 30px 40px 40px 35px;
+  }
+  .contact-container .contact-content .right-side {
+    width: 75%;
+    margin-left: 55px;
+  }
+  .right-side .button input[type="button"] {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+@media (max-width: 820px) {
+  .contact-container {
+    margin: 0;
+    height: 100%;
+  }
+  .contact-container .contact-content {
+    flex-direction: column-reverse;
+  }
+  .contact-container .contact-content .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact-container .contact-content .left-side::before {
+    display: none;
+  }
+  .contact-container .contact-content .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+  .right-side .button input[type="button"] {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+@media (max-width: 263){
+  .right-side .button input[type="button"] {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px 0;
+  }
+}
