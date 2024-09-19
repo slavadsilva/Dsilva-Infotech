@@ -20,7 +20,7 @@ export const Contact = () => {
           <div className='phone details'>
             <i className='fas fa-phone-alt'><FaPhoneAlt /></i>
             <div className='topic'>Phone</div>
-            <div className='text-one'><a href="tel:+91 9130598444">+91 9130598444</a></div>
+            <div className='text-one'><a href="tel:+91 9130598401">+91 9130598401</a></div>
           </div>
           <div className='email details'>
             <i className='fas fa-envelope'><MdEmail /></i>
